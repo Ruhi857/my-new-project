@@ -1,0 +1,95 @@
+@font-face {font-family: 'Gotham Bold';src: url('gothamssm-bold.otf');}
+h1{font-family: "Bebas Neue", sans-serif;color: #fff;font-size: 60px;line-height: 1;letter-spacing: 2px;}
+h2{font-family: 'Gotham Bold';color: #fff;font-size: 60px;line-height: 1.2;}
+h5{font-family: 'Gotham Bold';font-size: 24px;}
+h6{font-family: 'Gotham Bold';color: #fff;font-size: 40px;}
+.font-80{font-size: 80px;line-height: 1;}
+.section-padding{padding: 50px 0;}
+.text-blue{color: #022044;}
+.bg-blue{background-color: #022044;}
+.header-section{background-color: #f5f5ff;}
+a.navbar-brand {width: 250px;}
+img{max-width: 100%;height: auto;}
+.nav-link{color: #022044;font-family: 'Gotham Bold';}
+.section-banner{background-image: url('images/riseinglobalBanner.jpg');padding: 268px 0 70px;background-repeat: no-repeat;background-position: bottom left;background-size: cover;background: linear-gradient(30deg, rgba(2, 32, 68, 1), rgba(0, 0, 0, 0.2)), url('images/riseinglobalBanner.jpg') cover no-repeat bottom;background: linear-gradient(30deg, rgba(2, 32, 68, 1), rgba(0, 0, 0, 0.2)), url('images/riseinglobalBanner.jpg') no-repeat bottom;background-size: cover;}
+.font-100 {font-size: 100px;line-height: 0.9;}
+.font-200 {font-size: 170px;}
+.bottom-line:after {content: '';width: 400px;height: 3px;background-color: #fff;display: block;right: 23px;position: absolute;}
+/* -----------middle content------------ */
+.font-30-bold{font-family: 'Gotham Bold';font-size: 30px;}
+h6.section-heading6::before, h6.section-heading6::after {content: '';width: 150px;height: 3px;background: #fff;position: absolute;left: -46%;top: 50%;}
+h6.section-heading6::after {left: unset;right: -46%;top: 50%;}
+.product-wrapper {background-color: #fff;}
+.product-wrapper-1, .product-wrapper-6 {border-radius: 60px 0;}
+.product-wrapper-1 img, .product-wrapper-6 img {border-radius: 60px 0 0;}
+.product-wrapper-2, .product-wrapper-2 img {border-radius: 60px 60px 0 0;}
+.product-wrapper-3 img, .product-wrapper-4 img {border-radius: 0 60px 0 0;}
+.product-wrapper-3, .product-wrapper-4 {border-radius: 0 60px;}
+.product-wrapper-5 {border-radius: 0 0 60px 60px;}
+.explore-btn{width: 250px;}
+/* -----------------footer--------------- */
+.poppins-medium {font-family: "Poppins", sans-serif;font-weight: 500;}
+.contact-details-wrapper a, .footer-nav a, .social-nav a{color: #03254f;text-decoration: none;}
+.contact-details-wrapper a:hover, .footer-nav a:hover, .social-nav a:hover{color: #412920;}
+.footer-section{padding: 50px 0 20px 0;font-family: 'Gotham Bold';}
+.social-nav img{width: 40px;}
+.font-20{font-size: 20px;}
+@media (max-width: 1200px){
+    h1{font-size: 50px;}
+    h2{font-size: 50px;}
+    h6{font-size: 35px;}
+    .font-80{font-size: 70px;}
+    .font-100 {font-size: 85px;}
+    .font-200 {font-size: 140px;}
+    h6.section-heading6::before, h6.section-heading6::after {width: 120px;}
+    h6.section-heading6::after {width: 120px;}
+    .bottom-line::after {right: -75px;}
+}
+@media (max-width: 991px){
+    h1{font-size: 40px;}
+    h2{font-size: 40px;}
+    h6{font-size: 30px;}
+    .font-80{font-size: 55px;}
+    .font-30-bold{font-family: 'Gotham Bold';font-size: 24px;}
+    h6.section-heading6::before, h6.section-heading6::after, h6.section-heading6::after {width: 80px;}
+    .product-wrapper-1, .product-wrapper-4, .product-wrapper-5 {border-radius: 40px 0;}
+    .product-wrapper-1 img, .product-wrapper-4 img, .product-wrapper-5 img {border-radius: 40px 0 0;}
+    .product-wrapper-2 img, .product-wrapper-3 img, .product-wrapper-6 img {border-radius: 0 40px 0 0;}
+    .product-wrapper-2, .product-wrapper-3, .product-wrapper-6 {border-radius: 0 40px;}
+    .show {position: absolute;top: 100%;background-color: #fff;width: 95%;padding: 20px;transition: all;}
+    .collapsing, .collapse{transition: none;}
+    h6.section-heading6::before, h6.section-heading6::after {left: -35%;}
+    h6.section-heading6::after {left: unset;right: -35%;}
+}
+@media (max-width: 767px){
+    h1{font-size: 30px;letter-spacing: 1px;}
+    h2{font-size: 30px;}
+    h5{font-size: 20px;}
+    h6{font-size: 25px;}
+    .font-80{font-size: 40px;}
+    .font-100 {font-size: 65px;}
+    .font-200 {font-size: 120px;}
+    .section-padding{padding: 40px 0;}
+    .font-30-bold{font-family: 'Gotham Bold';font-size: 19px;}
+    .bottom-line:after {width: 300px;right: -40px;}
+    .font-20{font-size: 18px;}
+    h6.section-heading6::before, h6.section-heading6::after {left: -38%;}
+    h6.section-heading6::after {left: unset;right: -38%;}
+    .social-nav img {width: 20px;}
+    a.navbar-brand {width: 200px;}
+    .section-banner{padding: 268px 0 40px;}
+    .explore-btn{width: 200px;}
+}
+@media (max-width: 576px){
+    h1{font-size: 28px;}
+    h5{font-size: 16px;}
+    h6{font-size: 20px;}
+    .font-80{font-size: 30px;}
+    .font-100 {font-size: 51px;}
+    .font-200 {font-size: 80px;}
+    .bottom-line::after {width: 80%;right: -37px;}
+    .font-30-bold{font-family: 'Gotham Bold';font-size: 16px;}
+    .font-20{font-size: 16px;}
+    h6.section-heading6::before, h6.section-heading6::after {left: -35%;width: 55px;}
+    h6.section-heading6::after {left: unset;right: -35%;width: 55px;}
+}
