@@ -11,7 +11,7 @@ h6{font-family: 'Gotham Bold';color: #fff;font-size: 40px;}
 a.navbar-brand {width: 250px;}
 img{max-width: 100%;height: auto;}
 .nav-link{color: #022044;font-family: 'Gotham Bold';}
-.section-banner{background-image: url('images/riseinglobalBanner.jpg');padding: 268px 0 70px;background-repeat: no-repeat;background-position: bottom left;background-size: cover;background: linear-gradient(30deg, rgba(2, 32, 68, 1), rgba(0, 0, 0, 0.2)), url('images/riseinglobalBanner.jpg') cover no-repeat bottom;background: linear-gradient(30deg, rgba(2, 32, 68, 1), rgba(0, 0, 0, 0.2)), url('images/riseinglobalBanner.jpg') no-repeat bottom;background-size: cover;}
+.section-banner{background-image: url('riseinglobalBanner.jpg');padding: 268px 0 70px;background-repeat: no-repeat;background-position: bottom left;background-size: cover;background: linear-gradient(30deg, rgba(2, 32, 68, 1), rgba(0, 0, 0, 0.2)), url('riseinglobalBanner.jpg') cover no-repeat bottom;background: linear-gradient(30deg, rgba(2, 32, 68, 1), rgba(0, 0, 0, 0.2)), url('riseinglobalBanner.jpg') no-repeat bottom;background-size: cover;}
 .font-100 {font-size: 100px;line-height: 0.9;}
 .font-200 {font-size: 170px;}
 .bottom-line:after {content: '';width: 400px;height: 3px;background-color: #fff;display: block;right: 23px;position: absolute;}
