@@ -38,7 +38,7 @@ h6.section-heading6::after {left: unset;right: -46%;top: 50%;}
 
 .explore-btn{width: 250px;border: solid 2px #fff;}
 .explore-btn:hover{background-color: #022044 !important;color: #fff;border: solid 2px #fff;}
-.right-arrow{display: inline-block; width: 0;height: 14px;transition: width 0.5s ease;background-image: url('right-arrow.png');background-position: center;background-repeat: no-repeat;background-size: contain;}
+.right-arrow{display: inline-block; width: 0;height: 14px;transition: width 0.5s ease;background-image: url('right-arrow.png');background-position: center;background-repeat: no-repeat;background-size: contain;z-index: 1;position: relative;}
 .explore-btn:hover .right-arrow{width: 20px;}
 .product-wrapper, .onload-effect {opacity: 0;transform: translateY(30px);transition: opacity 1s ease-out, transform 1s ease-out;}
 .product-visible, .heading-visible {opacity: 1;transform: translateY(0);}
