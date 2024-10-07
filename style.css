@@ -19,14 +19,29 @@ img{max-width: 100%;height: auto;}
 .font-30-bold{font-family: 'Gotham Bold';font-size: 30px;}
 h6.section-heading6::before, h6.section-heading6::after {content: '';width: 150px;height: 3px;background: #fff;position: absolute;left: -46%;top: 50%;}
 h6.section-heading6::after {left: unset;right: -46%;top: 50%;}
-.product-wrapper {background-color: #fff;}
-.product-wrapper-1, .product-wrapper-6 {border-radius: 60px 0;}
+.product-wrapper {
+    background-color: #fff;
+    transition: transform 0.5s ease, box-shadow 0.5s ease, background-color 0.5s ease;
+    border-radius: 10px; /* Optional for smoother corners */
+}
+.product-wrapper:hover {
+    transform: translateY(-10px); /* Adds a smooth lift effect */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* A subtle shadow for depth */
+    background-color: #f5f5f5; /* Slight background color change on hover */
+}
+.product-wrapper-1, .product-wrapper-6 {border-radius: 60px 0;transition: all;}
 .product-wrapper-1 img, .product-wrapper-6 img {border-radius: 60px 0 0;}
 .product-wrapper-2, .product-wrapper-2 img {border-radius: 60px 60px 0 0;}
 .product-wrapper-3 img, .product-wrapper-4 img {border-radius: 0 60px 0 0;}
 .product-wrapper-3, .product-wrapper-4 {border-radius: 0 60px;}
 .product-wrapper-5 {border-radius: 0 0 60px 60px;}
-.explore-btn{width: 250px;}
+
+.explore-btn{width: 250px;border: solid 2px #fff;}
+.explore-btn:hover{background-color: #022044 !important;color: #fff;border: solid 2px #fff;}
+.right-arrow{display: inline-block; width: 0;height: 14px;transition: width 0.5s ease;background-image: url('right-arrow.png');background-position: center;background-repeat: no-repeat;background-size: contain;}
+.explore-btn:hover .right-arrow{width: 20px;}
+.product-wrapper, .onload-effect {opacity: 0;transform: translateY(30px);transition: opacity 1s ease-out, transform 1s ease-out;}
+.product-visible, .heading-visible {opacity: 1;transform: translateY(0);}
 /* -----------------footer--------------- */
 .poppins-medium {font-family: "Poppins", sans-serif;font-weight: 500;}
 .contact-details-wrapper a, .footer-nav a, .social-nav a{color: #03254f;text-decoration: none;}
