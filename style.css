@@ -51,8 +51,8 @@ h6.section-heading6::after {left: unset;right: -46%;top: 50%;}
 .section-manufaturingandtransporting {background: #022044 url("bg-design.png") repeat center center;}
 
 @media (min-width: 992px){
-    .product-wrapper, .onload-effect {opacity: 0;transform: translateY(30px);transition: opacity 1s ease-out, transform 1s ease-out;}
-.product-visible, .heading-visible {opacity: 1;transform: translateY(0);}
+    .home .product-wrapper, .home .onload-effect {opacity: 0;transform: translateY(30px);transition: opacity 1s ease-out, transform 1s ease-out;}
+    .home .product-visible, .home .heading-visible {opacity: 1;transform: translateY(0);}
 }
 @media (max-width: 1200px){
     h1{font-size: 50px;}
@@ -65,7 +65,7 @@ h6.section-heading6::after {left: unset;right: -46%;top: 50%;}
     h6.section-heading6::after {width: 120px;}
     .bottom-line::after {right: -75px;}
 }
-@media (max-width: 991px){
+@media (max-width: 992px){
     h1{font-size: 40px;}
     h2{font-size: 40px;}
     h6{font-size: 30px;}
@@ -99,6 +99,7 @@ h6.section-heading6::after {left: unset;right: -46%;top: 50%;}
     a.navbar-brand {width: 200px;}
     .section-banner{padding: 268px 0 40px;}
     .explore-btn{width: 200px;}
+    .section-manufaturingandtransporting {background-size: 120px;}
 }
 @media (max-width: 576px){
     h1{font-size: 28px;}
@@ -112,4 +113,5 @@ h6.section-heading6::after {left: unset;right: -46%;top: 50%;}
     .font-20{font-size: 16px;}
     h6.section-heading6::before, h6.section-heading6::after {left: -35%;width: 55px;}
     h6.section-heading6::after {left: unset;right: -35%;width: 55px;}
+    .multipurpose-ecommerce-img {min-height: 360px;object-fit: cover;}
 }
