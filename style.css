@@ -95,6 +95,7 @@ h6.section-heading6::after {left: unset;right: -46%;top: 50%;}
     .section-banner{padding: 268px 0 40px;}
     .explore-btn{width: 200px;}
     .section-manufaturingandtransporting {background-size: 120px;}
+    .section-our-products-padding {padding: 120px 0 50px 0;}
 }
 @media (max-width: 576px){
     h1{font-size: 28px;}
