@@ -40,7 +40,7 @@ h6.section-heading6::after {left: unset;right: -46%;top: 50%;}
 .footer-section{padding: 50px 0 20px 0;font-family: 'Gotham Bold';}
 .social-nav img{width: 40px;}
 .font-20{font-size: 20px;}
-.section-manufaturingandtransporting {background: #022044 url("bg-design.png") repeat center center;}
+.section-manufaturingandtransporting {background: #022044 url("bg-design.png") repeat center center;background-size: 205px;}
 
 /* --------------------our product------------------ */
 .section-our-products-padding {padding: 156px 0 86px 0;}
