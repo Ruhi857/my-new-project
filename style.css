@@ -19,16 +19,8 @@ img{max-width: 100%;height: auto;}
 .font-30-bold{font-family: 'Gotham Bold';font-size: 30px;}
 h6.section-heading6::before, h6.section-heading6::after {content: '';width: 150px;height: 3px;background: #fff;position: absolute;left: -46%;top: 50%;}
 h6.section-heading6::after {left: unset;right: -46%;top: 50%;}
-.product-wrapper {
-    background-color: #fff;
-    transition: transform 0.5s ease, box-shadow 0.5s ease, background-color 0.5s ease;
-    border-radius: 10px; /* Optional for smoother corners */
-}
-.product-wrapper:hover {
-    transform: translateY(-10px); /* Adds a smooth lift effect */
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* A subtle shadow for depth */
-    background-color: #f5f5f5; /* Slight background color change on hover */
-}
+.product-wrapper {background-color: #fff;transition: transform 0.5s ease, box-shadow 0.5s ease, background-color 0.5s ease;border-radius: 10px; /* Optional for smoother corners */}
+.product-wrapper:hover {transform: translateY(-10px); /* Adds a smooth lift effect */box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* A subtle shadow for depth */background-color: #f5f5f5; /* Slight background color change on hover */}
 .product-wrapper-1, .product-wrapper-6 {border-radius: 60px 0;transition: all;}
 .product-wrapper-1 img, .product-wrapper-6 img {border-radius: 60px 0 0;}
 .product-wrapper-2, .product-wrapper-2 img {border-radius: 60px 60px 0 0;}
@@ -49,6 +41,9 @@ h6.section-heading6::after {left: unset;right: -46%;top: 50%;}
 .social-nav img{width: 40px;}
 .font-20{font-size: 20px;}
 .section-manufaturingandtransporting {background: #022044 url("bg-design.png") repeat center center;}
+
+/* --------------------our product------------------ */
+.section-our-products-padding {padding: 86px 0;}
 
 @media (min-width: 992px){
     .home .product-wrapper, .home .onload-effect {opacity: 0;transform: translateY(30px);transition: opacity 1s ease-out, transform 1s ease-out;}
