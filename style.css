@@ -40,8 +40,7 @@ h6.section-heading6::after {left: unset;right: -46%;top: 50%;}
 .explore-btn:hover{background-color: #022044 !important;color: #fff;border: solid 2px #fff;}
 .right-arrow{display: inline-block; width: 0;height: 14px;transition: width 0.5s ease;background-image: url('right-arrow.png');background-position: center;background-repeat: no-repeat;background-size: contain;z-index: 1;position: relative;}
 .explore-btn:hover .right-arrow{width: 20px;}
-.product-wrapper, .onload-effect {opacity: 0;transform: translateY(30px);transition: opacity 1s ease-out, transform 1s ease-out;}
-.product-visible, .heading-visible {opacity: 1;transform: translateY(0);}
+
 /* -----------------footer--------------- */
 .poppins-medium {font-family: "Poppins", sans-serif;font-weight: 500;}
 .contact-details-wrapper a, .footer-nav a, .social-nav a{color: #03254f;text-decoration: none;}
@@ -49,6 +48,12 @@ h6.section-heading6::after {left: unset;right: -46%;top: 50%;}
 .footer-section{padding: 50px 0 20px 0;font-family: 'Gotham Bold';}
 .social-nav img{width: 40px;}
 .font-20{font-size: 20px;}
+.section-manufaturingandtransporting {background: #022044 url("bg-design.png") repeat center center;}
+
+@media (min-width: 992px){
+    .product-wrapper, .onload-effect {opacity: 0;transform: translateY(30px);transition: opacity 1s ease-out, transform 1s ease-out;}
+.product-visible, .heading-visible {opacity: 1;transform: translateY(0);}
+}
 @media (max-width: 1200px){
     h1{font-size: 50px;}
     h2{font-size: 50px;}
