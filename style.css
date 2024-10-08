@@ -43,7 +43,7 @@ h6.section-heading6::after {left: unset;right: -46%;top: 50%;}
 .section-manufaturingandtransporting {background: #022044 url("bg-design.png") repeat center center;}
 
 /* --------------------our product------------------ */
-.section-our-products-padding {padding: 86px 0;}
+.section-our-products-padding {padding: 156px 0 86px 0;}
 
 @media (min-width: 992px){
     .home .product-wrapper, .home .onload-effect {opacity: 0;transform: translateY(30px);transition: opacity 1s ease-out, transform 1s ease-out;}
