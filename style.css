@@ -17,6 +17,13 @@ a.navbar-brand {width: 250px;}
 img{max-width: 100%;height: auto;}
 .gotham-bold{font-family: 'Gotham Bold';}
 .nav-link{color: #fff;font-family: 'Gotham Bold';font-size: 1.2em;}
+.navbar-toggler {
+	color: #022044;
+	border: var(--bs-border-width) solid #022044;
+}
+.navbar-toggler:focus {
+	box-shadow: 0 0 0 2px !important;
+}
 .section-banner{background-image: url('riseinglobalBanner.jpg');padding: 22% 0 70px;background-repeat: no-repeat;background-position: bottom left;background-size: cover;background: linear-gradient(30deg, rgba(2, 32, 68, 1), rgba(0, 0, 0, 0.2)), url('riseinglobalBanner.jpg') cover no-repeat bottom;background: linear-gradient(30deg, rgba(2, 32, 68, 1), rgba(0, 0, 0, 0.2)), url('riseinglobalBanner.jpg') no-repeat top;background-size: cover;border-bottom: 3px solid rgb(109, 69, 0);}
 .font-100 {font-size: 100px;line-height: 0.9;}
 .font-200 {font-size: 170px;}
@@ -139,7 +146,6 @@ h6.section-heading6::after {left: unset;right: -46%;top: 50%;}
     .work-with-us-anime-img img{width: 100px;}
     .section-sk-exim-enterprises {padding: 40px 0 16% 0;}
     .section-key-advantanges {padding: 215px 0 50px 0;margin-top: -12%;background-size: 111% 100%;}
-    /* .section-key-advantanges {background-image: url('golden-pattern-ruff-bottom-mb-bg-img.png');background-position: top left;background-repeat: no-repeat;background-size: cover;padding: 40% 0 50px 0;margin-top: -12%;} */
 }
 @media (max-width: 576px){
     h1{font-size: 28px;}
@@ -157,6 +163,6 @@ h6.section-heading6::after {left: unset;right: -46%;top: 50%;}
     h6.section-heading6::before, h6.section-heading6::after {left: -25%;width: 40px;}
     h6.section-heading6::after {left: unset;right: -25%;width: 40px;}
     .multipurpose-ecommerce-img {min-height: 360px;object-fit: cover;}
-    .section-key-advantanges {padding: 210px 0 50px 0;margin-top: -18%;background-size: 236% 100%;}
-    .section-sk-exim-enterprises {padding: 23px 0 20% 0;}
+    .section-key-advantanges {background-image: url('Mobiledevice-Bottom-Pattern.jpg');background-size: 100% 100%;padding: 130px 0 50px 0;margin-top: -25px;}
+    .section-sk-exim-enterprises {padding: 23px 0 75px 0;}
 }
