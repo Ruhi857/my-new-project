@@ -1,12 +1,14 @@
 @font-face {font-family: 'Gotham Bold';src: url('gothamssm-bold.otf');}
+body{font-weight: 400 !important;}
 h1{font-family: "Bebas Neue", sans-serif;color: #fff;font-size: 60px;line-height: 1;letter-spacing: 2px;}
 h2{font-family: 'Gotham Bold';color: #fff;font-size: 60px;line-height: 1.2;}
-h3{font-family: 'Gotham Bold';color: #fff;font-size: 36px;line-height: 1.2;}
+h3{font-family: 'Gotham Bold';color: #022044;font-size: 36px;line-height: 1.2;}
 h5{font-family: 'Gotham Bold';font-size: 24px;}
 h6{font-family: 'Gotham Bold';color: #fff;font-size: 40px;}
 .font-80{font-size: 80px;line-height: 1;}
 .font-45{font-size: 45px;}
 .section-padding{padding: 50px 0;}
+.section-padding-top{padding-top: 50px;}
 .text-blue{color: #022044;}
 .bg-blue{background-color: #022044;}
 .header-section{background-color: #f5f5ff;}
@@ -18,6 +20,7 @@ img{max-width: 100%;height: auto;}
 .font-100 {font-size: 100px;line-height: 0.9;}
 .font-200 {font-size: 170px;}
 .font-24{font-size: 24px;}
+.border-bottom-blue{border-bottom: 2px solid #022044;}
 .bottom-line:after {content: '';width: 400px;height: 3px;background-color: #fff;display: block;right: 23px;position: absolute;}
 /* -----------middle content------------ */
 .font-30-bold{font-family: 'Gotham Bold';font-size: 30px;}
@@ -39,6 +42,8 @@ h6.section-heading6::after {left: unset;right: -46%;top: 50%;}
 
 /* -----------------footer--------------- */
 .poppins-medium {font-family: "Poppins", sans-serif;font-weight: 500;}
+.poppins-regular {font-family: "Poppins", sans-serif;font-weight: 400;}
+.poppins-bold {font-family: "Poppins", sans-serif;font-weight: 700;}
 .contact-details-wrapper a, .footer-nav a, .social-nav a{color: #03254f;text-decoration: none;}
 .contact-details-wrapper a:hover, .footer-nav a:hover, .social-nav a:hover{color: #412920;}
 .footer-section{padding: 50px 0 20px 0;font-family: 'Gotham Bold';}
@@ -48,6 +53,14 @@ h6.section-heading6::after {left: unset;right: -46%;top: 50%;}
 
 /* --------------------our product------------------ */
 .section-our-products-padding {padding: 156px 0 86px 0;}
+
+/* -----------------about page-------------- */
+.section-sk-exim-enterprises{background-image: url('golden-pattern-ruff-bg-img.png');background-position: bottom center;background-repeat: no-repeat;background-size: 100% 100%;padding: 50px 0 18% 0;}
+.section-key-advantanges{background-image: url('Layer\ 6@2x\ -\ Copy.png');background-position: top center;background-repeat: no-repeat;background-size: 100% 100%;padding: 18% 0 50px 0;margin-top: -5%;}
+.list-style-arrow, .list-style-arrow-white{list-style: none;}
+.list-style-arrow li, .list-style-arrow-white li{position: relative;}
+.list-style-arrow li::before {content: '';width: 25px;height: 25px;display: inline-block;background-image: url('white-arrow.png');background-size: contain;position: absolute;left: -30px;top: 5px;}
+.list-style-arrow-white li::before{content: '';width: 25px;height: 25px;display: inline-block;background-image: url('white-arrow-blue.png');background-size: contain;position: absolute;left: -30px;top: 5px;}
 
 /* contact page  */
 .intl-tel-input {display: table-cell;}
@@ -67,6 +80,7 @@ h6.section-heading6::after {left: unset;right: -46%;top: 50%;}
     h1{font-size: 50px;}
     h2{font-size: 50px;}
     h6{font-size: 35px;}
+    .font-20{font-size: 18px;}
     .font-80{font-size: 70px;}
     .font-100 {font-size: 85px;}
     .font-200 {font-size: 140px;}
@@ -78,6 +92,7 @@ h6.section-heading6::after {left: unset;right: -46%;top: 50%;}
     h1{font-size: 40px;}
     h2{font-size: 40px;}
     h6{font-size: 30px;}
+    .font-20{font-size: 16px;}
     .font-80{font-size: 55px;}
     .font-30-bold{font-family: 'Gotham Bold';font-size: 24px;}
     h6.section-heading6::before, h6.section-heading6::after, h6.section-heading6::after {width: 80px;}
@@ -92,6 +107,8 @@ h6.section-heading6::after {left: unset;right: -46%;top: 50%;}
     h3 {font-size: 28px;}
     .font-45 {font-size: 36px;}
     .font-24 {font-size: 20px;}
+    .section-key-advantanges {background-image: url('golden-pattern-ruff-bottom-tab-bg-img.png');background-position: top left;background-repeat: no-repeat;background-size: cover;padding: 40% 0 50px 0;margin-top: -12%;}
+    video {height: 640px;width: auto;}
 }
 @media (max-width: 767px){
     h1{font-size: 30px;letter-spacing: 1px;}
@@ -117,21 +134,21 @@ h6.section-heading6::after {left: unset;right: -46%;top: 50%;}
     .font-45 {font-size: 28px;}
     .font-24 {font-size: 18px;}
     .work-with-us-anime-img img{width: 100px;}
-    .font-20{font-size: 18px;}
+    .section-key-advantanges {background-image: url('golden-pattern-ruff-bottom-mb-bg-img.png');background-position: top left;background-repeat: no-repeat;background-size: cover;padding: 40% 0 50px 0;margin-top: -12%;}
 }
 @media (max-width: 576px){
     h1{font-size: 28px;}
-    h2{font-size: 26px;}
+    h2{font-size: 32px;}
     h3 {font-size: 20px;}
     h5{font-size: 16px;}
     h6{font-size: 20px;}
+    .font-20{font-size: 16px;}
     .font-80{font-size: 30px;}
     .font-100 {font-size: 51px;}
     .font-200 {font-size: 80px;}
-    .font-45 {font-size: 22px;}
+    .font-45 {font-size: 26px;}
     .bottom-line::after {width: 80%;right: -37px;}
     .font-30-bold{font-family: 'Gotham Bold';font-size: 16px;}
-    .font-20{font-size: 16px;}
     h6.section-heading6::before, h6.section-heading6::after {left: -35%;width: 55px;}
     h6.section-heading6::after {left: unset;right: -35%;width: 55px;}
     .multipurpose-ecommerce-img {min-height: 360px;object-fit: cover;}
