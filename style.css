@@ -114,8 +114,9 @@ h6.section-heading6::after {left: unset;right: -46%;top: 50%;}
     h3 {font-size: 28px;}
     .font-45 {font-size: 36px;}
     .font-24 {font-size: 20px;}
-    .section-key-advantanges {background-image: url('Mobile-Bottom-Pattern.png');background-position: top center;background-repeat: no-repeat;background-size: cover;padding: 25% 0 50px 0;margin-top: -5%;}
-    video {height: 640px;width: auto;}
+    .section-key-advantanges {background-image: url('Mobile-Bottom-Pattern.png');background-position: top center;background-repeat: no-repeat;background-size: cover;padding: 183px 0 50px 0;margin-top: -5%;}
+    video {max-height: 640px;width: auto;max-width: 100%;}
+    .work-with-us-anime-img img {width: 100px;}
 }
 @media (max-width: 767px){
     h1{font-size: 30px;letter-spacing: 1px;}
@@ -133,6 +134,7 @@ h6.section-heading6::after {left: unset;right: -46%;top: 50%;}
     h6.section-heading6::after {left: unset;right: -38%;}
     .social-nav img {width: 20px;}
     a.navbar-brand {width: 200px;}
+    .nav-link {font-size: 1em;}
     .section-banner{padding: 268px 0 40px;}
     .explore-btn{width: 200px;}
     .section-manufaturingandtransporting {background-size: 120px;}
@@ -140,7 +142,7 @@ h6.section-heading6::after {left: unset;right: -46%;top: 50%;}
     h3 {font-size: 22px;}
     .font-45 {font-size: 28px;}
     .font-24 {font-size: 18px;}
-    .work-with-us-anime-img img{width: 100px;}
+    .work-with-us-anime-img img{width: 80px;}
     .section-sk-exim-enterprises {padding: 40px 0 16% 0;}
     .section-key-advantanges {padding: 215px 0 50px 0;margin-top: -12%;background-size: 111% 100%;}
 }
