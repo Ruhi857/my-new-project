@@ -12,15 +12,16 @@ h6{font-family: 'Gotham Bold';color: #fff;font-size: 40px;}
 .text-blue{color: #022044;}
 .bg-blue{background-color: #022044;}
 .header-section{background-color: #F5F4FA;}
-.home .header-section{background-color: #0000002b;position: absolute;width: 100%;}
+.home .header-section{background-color: #0220445e;position: absolute;width: 100%;}
 a.navbar-brand {width: 250px;}
 img{max-width: 100%;height: auto;}
 .gotham-bold{font-family: 'Gotham Bold';}
 .home .nav-link{color: #fff;}
+.home .navbar-nav .nav-link.active, .home .navbar-nav .show>.nav-link{color: #fff !important;}
 .nav-link{color: #022044;font-family: 'Gotham Bold';font-size: 1.2em;}
 .navbar-toggler {color: #022044;border: var(--bs-border-width) solid #022044;}
 .navbar-toggler:focus {box-shadow: 0 0 0 2px !important;}
-.section-banner{background-image: url('riseinglobalBanner.jpg');padding: 22% 0 70px;background-repeat: no-repeat;background-position: bottom left;background-size: cover;background: linear-gradient(30deg, rgba(2, 32, 68, 1), rgba(0, 0, 0, 0.2)), url('riseinglobalBanner.jpg') cover no-repeat bottom;background: linear-gradient(30deg, rgba(2, 32, 68, 1), rgba(0, 0, 0, 0.2)), url('riseinglobalBanner.jpg') no-repeat top;background-size: cover;border-bottom: 3px solid rgb(109, 69, 0);}
+.section-banner{background-image: url('riseinglobalBanner.jpg');padding: 22% 0 70px;background-repeat: no-repeat;background-position: bottom left;background-size: cover;background: linear-gradient(30deg, rgba(2, 32, 68, 1), rgba(0, 0, 0, 0.2)), url('riseinglobalBanner.jpg') cover no-repeat bottom;background: linear-gradient(30deg, rgba(2, 32, 68, 1), rgba(0, 0, 0, 0.2)), url('riseinglobalBanner.jpg') no-repeat top;background-size: cover;border-bottom: 3px solid #fff;}
 .font-100 {font-size: 100px;line-height: 0.9;}
 .font-200 {font-size: 170px;}
 .font-24{font-size: 24px;}
